@@ -41,6 +41,8 @@ const run = async () => {
     shell.exit(1);
   }
 
+  const projectDirectory = process.argv[2];
+
   if (!projectDirectory) {
     console.log("Please specify a project name:");
     console.log("create-base-cli my-project");
