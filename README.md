@@ -22,6 +22,8 @@ Replace `my-project` with your project name and follow the instructions provided
 
 - **Easy Configurations:** Store and access CLI configurations conveniently through JSON files in the user's home directory.
 
+- **Update Notifications:** Automatically notify users when a new version of your CLI is available.
+
 - **Is beautiful:** Just see what a beautiful it is \*-\*
 
 ![Screenshot](screenshot.png)
