@@ -4,7 +4,7 @@ This project allows you to generate a custom Command-Line Interface (CLI) from a
 
 ## Usage
 
-Once you have installed the dependencies, you can use the following command to generate a custom CLI:
+You can use the following command to generate a custom CLI:
 
 ```bash
 npx create-base-cli my-project
