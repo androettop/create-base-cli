@@ -1,0 +1,17 @@
+{
+	"configDirName": ".{{projectDirectory}}",
+	"globalConfigName": "config.json",
+	"globalFlags": {
+		"help": {
+			"type": "boolean",
+			"default": false,
+			"description": "Show help"
+		},
+		"debug": {
+			"type": "boolean",
+			"alias": "d",
+			"default": false,
+			"description": "Show debug info"
+		}
+	}
+}

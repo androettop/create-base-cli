@@ -1,0 +1,38 @@
+{
+	"name": "{{packageName}}",
+	"description": "{{packageDescription}}",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"{{bin}}": "src/index.js"
+	},
+	"files": [
+		"src",
+		"scripts"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"lint": "eslint .",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"decamelize": "^1.2.0",
+		"meow": "^9.0.0",
+		"omelette": "^0.4.17"
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"husky": "^7.0.4",
+		"lint-staged": ">=10",
+		"prettier": "^2.5.1"
+	},
+	"lint-staged": {
+		"*.{js,json}": "prettier --write",
+		"*.js": "eslint --cache --fix"
+	}
+}

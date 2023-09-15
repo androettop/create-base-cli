@@ -1,0 +1,14 @@
+{
+  "name": "create-base-cli",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "create-base-cli": "./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "shelljs": "^0.8.5"
+  }
+}
