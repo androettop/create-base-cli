@@ -14,7 +14,7 @@ Replace `my-project` with your project name and follow the instructions provided
 
 ## Key Features
 
-- **Command Customization:** Built with meow, allowing for full customization of flags and command options.
+- **Command Customization:** Built with [meow](https://github.com/sindresorhus/meow), allowing for full customization of flags and command options.
 
 - **Auto-completion:** Enhance user experience with command-line auto-completion.
 
