@@ -1,11 +1,25 @@
 {
   "name": "create-base-cli",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "A tool to create a base cli project",
+  "keywords": [
+    "cli",
+    "create",
+    "meow"
+  ],
+  "homepage": "https://github.com/androettop/create-base-cli#readme",
+  "bugs": {
+    "url": "https://github.com/androettop/create-base-cli/issues",
+    "email": "androettop@gmail.com"
+  },
   "bin": {
     "create-base-cli": "./index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androettop/create-base-cli"
+  },
+  "author": "Pablo Androetto <androettop@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^11.1.1",
